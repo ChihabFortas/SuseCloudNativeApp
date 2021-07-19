@@ -5,7 +5,7 @@ replicaCount: 1
 
 image:
   repository: nginx 
-  tag: 1.18.0
+  tag: 1.20.0
 
 resources:
   requests:
@@ -13,4 +13,4 @@ resources:
     memory: 128Mi
 
 configmap:
-  data: "version: 1.18.0"
+  data: "version: 1.20.0"
